@@ -23,7 +23,7 @@ function Form() {
   };
   return (
     <div className="Form">
-      <div className="title">Sign Up</div>
+      <div className="title">Sign In</div>
       <div className="inputs">
         <form onSubmit={handleSubmit(submitForm)}>
           <input
